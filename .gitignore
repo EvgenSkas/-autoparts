@@ -1,0 +1,8 @@
+node_modules/
+build/
+*.[oa]
+*~
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

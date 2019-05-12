@@ -1,0 +1,35 @@
+.delivery
+	position: absolute
+	top: 4400px
+	width: 100%
+	text-align: center
+	color: $blue
+	height: 1800px
+	background: url('../img/bg-devilery.jpg') no-repeat center center
+	background-size: cover
+	h2
+		color: $blue
+	> p 
+		font-family: $default-font-bold
+		font-size: emy(17)
+		padding: 40px 0
+	.five-steps
+		width: 700px
+		margin: 0 auto
+		.step-text
+			display: inline-block
+			width: 280px
+			vertical-align: middle
+			text-align: left
+			h4
+				line-height: 16px
+		.step-icon
+			display: inline-block
+			width: 140px
+			height: 120px
+			vertical-align: middle
+			background: url('../img/sprite-deleviry.svg') no-repeat 0px center
+li:nth-child(odd) .step-text
+	margin-right: 200px
+li:nth-child(even) .step-icon
+	margin-right: 200px
